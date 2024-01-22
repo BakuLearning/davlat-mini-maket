@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.container{
+    max-width: 1110px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.wraper{
+    width: 100%;
+    /* min-height: 100vh; */
+    background-image: url(https://thumbs.dreamstime.com/b/old-abandoned-mansion-mystic-spooky-forest-ancient-haunted-house-frankenstein-dark-horror-atmosphere-creepy-old-146802675.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 240px;
+}
+.header{
+    padding-top: 93px;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.navbar__list{
+    display: flex;
+    align-items: center;
+}
+.navbar__item{
+    margin-right: 60px;
+}
+.navbar__item:last-child{
+    margin-right: 0;
+}
+.navbar__link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+.navbar__link:hover{
+   opacity: 0.8;
+}
+.navbar__link:active{
+    opacity: 0.6;
+}
+.hero{
+    padding-top: 145px;
+}
+.hero__title{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 26px;
+}
+.hero_text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 106px;
+}
+.hero__link{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+.about{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 93px;
+    padding-bottom: 113px;
+}
+.about__title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333;
+    margin-bottom: 76px;
+}
+.about__text{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-align: justify;
+    color: #333;
+}
